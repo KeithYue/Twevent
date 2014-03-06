@@ -15,7 +15,8 @@ A novel segment-based event detection system for tweets.
 * get the alpha result just use the microsoft n-gram
 * install the tweets data into mongodb
 * get the microsoft n-gram user token
-
-###### Todo
 * add the length normalizaion factor
 * multi-thread to do the computation and http request
+
+###### Todo
+* the tokenizer just use str.split is not flexible, try to find a good tokenizer for tweet
